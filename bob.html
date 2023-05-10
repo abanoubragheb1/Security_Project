@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Sec</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bob.css">
+
+  </head>
+  <body>
+    <h1>  Security</h1>
+	
+	<label for="key">Enter key:</label>
+	<input type="text" id="key"><br><br>
+
+	<label for="word">Enter a Plaintext:</label>
+	<input type="text" id="word"><br><br>
+
+	<br><br>
+	<button onclick="vigenere_encode()">Vigenere Encode</button> 
+	<button onclick="vigenere_decode()">Vigenere Decode</button>
+	 <button onclick="DES_encode()">DES Encode</button> 
+	 <button onclick="DES_decode()">DES Decode</button>	
+	<button onclick="caesar_encode()">Caesar Encode</button>
+	<button onclick="caesar_decode()">Caesar Decode</button>
+	<button onclick="playfair_encode()">Playfair Encode</button>	
+	<button onclick="playfair_decode()">Playfair Decode</button>
+	
+
+
+	<label for="output">Output:</label>
+	<textarea id="output" rows="10" cols="50"></textarea>
+
+	<script src="DES.js"></script>
+
+  </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
